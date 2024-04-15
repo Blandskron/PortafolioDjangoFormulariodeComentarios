@@ -1,6 +1,6 @@
 # PortafolioDjangoFormulariodeComentarios
 
-```markdown
+```
 # Proyecto de Foro con Comentarios
 
 Este es un proyecto de Django que implementa un foro simple donde los usuarios pueden agregar comentarios a los textos publicados.
@@ -13,13 +13,13 @@ Para clonar este proyecto en tu máquina local, sigue estos pasos:
 
 2. Utiliza el comando `git clone` seguido del enlace del repositorio para clonar el proyecto. Por ejemplo:
 
-    ```bash
+    ```
     git clone https://github.com/tu_usuario/tu_repositorio.git
     ```
 
 3. Una vez que el repositorio se haya clonado correctamente, navega hasta el directorio del proyecto:
 
-    ```bash
+    ```
     cd tu_repositorio
     ```
 
@@ -29,13 +29,13 @@ Antes de ejecutar el proyecto, es recomendable configurar un entorno virtual par
 
 1. Instala `virtualenv` si aún no lo has hecho:
 
-    ```bash
+    ```
     pip install virtualenv
     ```
 
 2. Crea un nuevo entorno virtual en el directorio del proyecto:
 
-    ```bash
+    ```
     virtualenv venv
     ```
 
@@ -43,13 +43,13 @@ Antes de ejecutar el proyecto, es recomendable configurar un entorno virtual par
 
     - En Windows:
 
-        ```bash
+        ```
         venv\Scripts\activate
         ```
 
     - En macOS/Linux:
 
-        ```bash
+        ```
         source venv/bin/activate
         ```
 
@@ -57,7 +57,7 @@ Antes de ejecutar el proyecto, es recomendable configurar un entorno virtual par
 
 Una vez que el entorno virtual esté activado, instala las dependencias del proyecto utilizando el archivo `requirements.txt`:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 Finalmente, puedes ejecutar el servidor de desarrollo de Django para ver el proyecto en funcionamiento. Asegúrate de estar en el directorio raíz del proyecto y ejecuta el siguiente comando:
 
-```bash
+```
 python manage.py runserver
 ```
 
