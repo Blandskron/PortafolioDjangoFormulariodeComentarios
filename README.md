@@ -1,6 +1,6 @@
 # PortafolioDjangoFormulariodeComentarios
 
-```
+
 # Proyecto de Foro con Comentarios
 
 Este es un proyecto de Django que implementa un foro simple donde los usuarios pueden agregar comentarios a los textos publicados.
@@ -72,4 +72,4 @@ python manage.py runserver
 Después de ejecutar este comando, podrás acceder al proyecto desde tu navegador web ingresando la dirección `http://127.0.0.1:8000/`.
 
 ¡Y eso es todo! Ahora deberías tener una copia del proyecto en tu máquina local y estar listo para empezar a trabajar en él o explorarlo.
-```
+
