@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+</head>
+<body>
+    <h1>Bienvenido a mi foro</h1>
+    
+    <h2>Textos</h2>
+    {% if textos %}
+        {% for texto in textos %}
+            <div>
+                <p>{{ texto.contenido }}</p>
+                <a href="{% url 'add_comment_with_texto' texto.id %}">Agregar comentario</a>
+                <a href="{% url 'view_comments' texto.id %}">Ver comentarios</a>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No hay textos disponibles.</p>
+    {% endif %}
+</body>
+</html>
